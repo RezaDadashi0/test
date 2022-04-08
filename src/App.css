@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "TitrBold";
+    src: url("./PersianFonts/TitrBold.eot") format("eot"),
+      url("./PersianFonts/TitrBold.woff") format("woff"),
+      url("./PersianFonts/TitrBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Homa";
+    src: url("./PersianFonts/Homa.eot") format("eot"),
+      url("./PersianFonts/Homa.woff") format("woff"),
+      url("./PersianFonts/Homa.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .homa{
+    font-family: "Homa";
+  }
+
+  .titr{
+    font-family: 'TitrBold';
+  }
+  
+  .rtl{
+    direction: rtl;
+  }
+
+  .error{
+    color: #D50000;
+    font-size: 11px;
+    margin-top: 4px;
+  }
